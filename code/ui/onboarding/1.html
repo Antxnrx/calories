@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=375, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+<title>CalorieWise</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<style type="text/tailwindcss">
+    :root {
+      --primary-color: #1a202c;
+      --secondary-color: #4a5568;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      width: 375px;
+      margin: 0 auto;
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+      width: 375px;
+      margin: 0 auto;
+    }
+  </style>
+  </head>
+<body class="bg-gray-50 text-gray-800">
+<div class="relative flex min-h-screen w-full flex-col items-center justify-center p-8">
+<div class="z-10 flex flex-col items-center justify-center text-center space-y-8">
+<div class="w-24 h-24 rounded-full border-4 border-gray-200 flex items-center justify-center bg-white shadow-lg">
+<svg class="w-12 h-12 text-gray-800" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<div class="space-y-2">
+<h1 class="text-4xl font-bold tracking-tight text-gray-900">CalorieWise</h1>
+<p class="text-lg text-gray-600">Your Intelligent Nutrition Partner</p>
+</div>
+</div>
+<div class="p-6">
+<button id="getStartedBtn" class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-14 px-5 w-full bg-zinc-900 text-white text-base font-bold leading-normal tracking-[0.015em] shadow-[0_4px_10px_rgba(0,0,0,0.1)]">
+<span class="truncate">Get Started</span>
+</button>
+</div>
+</div>
+
+<script>
+document.getElementById('getStartedBtn').addEventListener('click', function() {
+    window.location.href = '2.html';
+});
+</script>
+
+</body></html>
